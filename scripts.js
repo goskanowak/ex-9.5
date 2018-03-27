@@ -1,4 +1,5 @@
 // Użyj metody aby pobrać elementy ze strony i przypisz je do zmiennej.
+
 var buttonElement = document.getElementsByClassName('button');
 console.log(buttonElement);
 
@@ -11,5 +12,6 @@ var x = numberElement.length;
     
 for (var a = 0; a < x; a++) {
     var buttonText = buttonElement[a].innerText;
+    alert(buttonText);
     console.log(buttonText);
     }
